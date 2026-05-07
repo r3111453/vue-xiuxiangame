@@ -10,7 +10,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import vitePluginBundleObfuscator from 'vite-plugin-bundle-obfuscator'
 
 export default defineConfig({
-  base: './',
+  base: '/vue-xiuxiangame/', // ← 這一行很重要！請改成 '/你的倉庫名稱/'
   build: {
     minify: 'terser',
     rollupOptions: {
